@@ -27,10 +27,15 @@ btnLeftRoom.addEventListener('click', () =>{
         listRoomClassifi.style.transform = `translateX(${width1 * -1 * current1}px)`
     }
 })
-
+var temp = 0;
 for (let i = 0; i < roomClassifiItem.length; i++){
     document.querySelector('.room_classifi_item_' + i).addEventListener('click', () =>{
-        document.querySelector('.activeListRoom').classList.remove('activeListRoom')
-        document.querySelector('.room_classifi_item_' + i).classList.add('activeListRoom')
+        temp++;
+        if (temp == 1){
+            document.querySelector('.room_classifi_item_' + i).classList.add('activeListRoom')
+        }else{
+            document.querySelector('.activeListRoom').classList.remove('activeListRoom')
+            document.querySelector('.room_classifi_item_' + i).classList.add('activeListRoom')
+        }
     })
 }

@@ -1,8 +1,7 @@
 var menuUserBtns = document.querySelectorAll('.js_menuUser_btn');
 var subNavGuest = document.querySelector('.js_sub_nav_guest');
 var menuUser = document.querySelector('.js_menu_user');
-const firstHeader = document.getElementById('first_header');
-const header = document.getElementById('header');
+const firstHeader = document.querySelector('#first_header');
 const navLogin = document.querySelectorAll('nav_login')
 const content = document.querySelector('.main')
 let current = 0;
@@ -33,12 +32,6 @@ firstHeader.addEventListener('click', function () {
     current = 0;
 });
 
-// Gắn lắng nghe sự kiện click vào header để ẩn menu
-header.addEventListener('click', function () {
-    hideMenuUser();
-    current = 0;
-});
-
 content.addEventListener('click', () =>{
     hideMenuUser();
     current = 0;
@@ -49,4 +42,15 @@ menuUser.addEventListener('click', function (e) {
     e.stopPropagation();
 });
 
+const alertComplete = document.querySelector('.alert_complete')
+console.log(alertComplete)
+setInterval(() =>{
+    alertComplete.classList.add('offActive')
+},3000)
 
+const productBtns = document.querySelectorAll('.js_product')
+for (var productBtn of productBtns){
+    productBtn.addEventListener('click', ()=>{
+        window.location.href = "Product.html";
+    })
+}

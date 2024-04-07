@@ -175,7 +175,7 @@
     border: 3px solid #fff;
     box-shadow: 10px 0 20px #999;
     background: url(/assets/img/img_profile/Thierry_Henry_\(51649035951\)_\(cropped\).jpg) top center / cover no-repeat;
-    animation: inforChange ease-in-out 2s;
+    animation: inforChange ease-in-out 1s;
 }
 
 
@@ -187,7 +187,7 @@
     padding: 5px 8px;
     border-radius: 50%;
     background-color: rgb(207 40 70);
-    animation: inforChange ease-in-out 2s;
+    animation: inforChange ease-in-out 1s;
 }
 
 @keyframes inforChange{
@@ -203,7 +203,7 @@
     top: 65%;
     font-size: 16px;
     font-weight: 600;
-    animation: nameChange ease-in-out 2s;
+    animation: nameChange ease-in-out 1s;
 }
 
 @keyframes nameChange{
@@ -217,7 +217,7 @@
 .contact_seller{
     position: absolute;
     top: 72%;
-    animation: contactChange ease-in-out 2s;
+    animation: contactChange ease-in-out 1s;
 }
 
 @keyframes contactChange{

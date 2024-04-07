@@ -36,8 +36,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -4px;
-    margin-right: -4px;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .row.no-gutters {
@@ -630,7 +630,7 @@
 /* PC low relolution */
 @media (min-width:1024px) and (max-width:1239px){
     .wide{
-        width: 984px;
+        width: 935px;
     }
 
     .wide .row{
