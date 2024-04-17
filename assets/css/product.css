@@ -1404,3 +1404,16 @@ html{
     padding: 30px 20px;
     border-bottom: 1px solid #ccc;
 }
+
+/* .video_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.video_container video{
+    display: block;
+    width: 50%;
+    transform: translateY(10%);
+    cursor: pointer;
+} */

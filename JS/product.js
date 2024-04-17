@@ -73,9 +73,9 @@ const numberAdults = document.querySelector('.number_adult')
 const numberChild = document.querySelector('.number_child')
 const numberInfants = document.querySelector('.number_infants')
 const numberGuest = document.querySelector('.guest_item p')
-let numberGuest1 = 1;
-let numberGuest2 = 0;
-let numberGuest3 = 0;
+let numberGuest1 = parseInt(numberAdults.textContent);
+let numberGuest2 = parseInt(numberChild.textContent);
+let numberGuest3 = parseInt(numberInfants.textContent);
 
 function minusBtn(minus, plus, number, numberG){
     Object.assign(plus.style,{
@@ -315,3 +315,11 @@ plusInfantsBtn.addEventListener('click', () =>{
     }
 })
 
+console.log (numberGuest1)
+console.log (numberGuest2)
+console.log (numberGuest3)
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     var video = document.getElementById('myVideo');
+//     video.play();
+// });
