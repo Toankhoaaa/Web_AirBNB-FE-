@@ -1,0 +1,535 @@
+.frame-92,
+.frame-92 * {
+  box-sizing: border-box;
+}
+body {
+  transform: scale(0.5);
+  margin-left: 100px;
+  transform-origin: top left;
+}
+.frame-92 {
+  display: flex;
+  flex-direction: column;
+  gap: 91px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.tieu-de-tong {
+  padding: 10px;
+  flex-shrink: 0;
+  width: 1353px;
+  height: 103px;
+  position: relative;
+}
+.finish-up-and-publish {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 601px;
+}
+.tieu-de-1 {
+  padding: 10px;
+  flex-shrink: 0;
+  width: 1353px;
+  height: 88px;
+  position: relative;
+}
+.decide-how-you-ll-confirm-reservations {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 875px;
+}
+.frame-91 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-11 {
+  background: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 23px 49px 23px 49px;
+  display: flex;
+  flex-direction: row;
+  gap: 621px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.title-button-11 {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.use-instant-book {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+  height: 53px;
+}
+.guests-can-book-automatically {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: relative;
+  align-self: stretch;
+  height: 53px;
+}
+.image-button-11 {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  object-fit: cover;
+}
+.button-12 {
+  background: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 23px 52px 23px 52px;
+  display: flex;
+  flex-direction: row;
+  gap: 585px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.title-button-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.approve-or-decline-requests {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.guests-must-ask-if-they-can-book {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: relative;
+  align-self: stretch;
+}
+.image-button-12 {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  object-fit: cover;
+}
+.tieu-de-2 {
+  flex-shrink: 0;
+  width: 1353px;
+  height: 113px;
+  position: relative;
+}
+.title-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1353px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.set-your-price {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.you-can-change-it-anytime {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: relative;
+  align-self: stretch;
+}
+.frame-2-gia-tien {
+  flex-shrink: 0;
+  width: 950px;
+  height: 300.12px;
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;;
+  align-items: center; 
+}
+.image-42 {
+  width: 350px;
+  height: 300.12px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+._10 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 350px;
+  position: absolute;
+  left: 364px;
+  top: 40.12px;
+  width: 366px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  outline: none;
+  white-space: nowrap;
+  min-width: 3ch;
+  margin-right: 8px;
+  flex-shrink: 0; 
+}
+.button-21 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100px;
+  position: absolute;
+  left: 744px;
+  top: 200.12px;
+}
+.image-43 {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position:  absolute;
+  object-fit: cover;
+  right: 0;
+  bottom: 0;
+  
+}
+.tieu-de-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.add-discounts {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.help-your-place-stand-out-to-get-booked-faster-and-earn-your-first-reviews {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: relative;
+  align-self: stretch;
+}
+.div-button-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1516px;
+  position: relative;
+}
+.button-31 {
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 50px 49px 50px 49px;
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.giam-gia-1 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+._20 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  position: relative;
+}
+.title-button-31 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.new-listing-promotion {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.offer-20-off-your-first-3-bookings {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+}
+.image-button-31 {
+  flex-shrink: 0;
+  width: 125px;
+  height: 125px;
+  position: relative;
+  object-fit: cover;
+}
+.button-32 {
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 50px 42px 50px 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 67px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.giam-gia-2 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+._102 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  position: relative;
+}
+.title-button-32 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.image-button-32 {
+  flex-shrink: 0;
+  width: 125px;
+  height: 125px;
+  position: relative;
+  object-fit: cover;
+}
+.button-33 {
+  background: rgba(217, 217, 217, 0.3);
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 50px 35px 50px 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 67px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.giam-gia-3 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 156px;
+  position: relative;
+  overflow: hidden;
+}
+.title-button-33 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.monthly-discount {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.for-stays-of-28-nights-or-more {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+}
+.image-button-33 {
+  flex-shrink: 0;
+  width: 125px;
+  height: 125px;
+  position: relative;
+  object-fit: cover;
+}
+.button-done {
+  background: #000000;
+  border-radius: 20px;
+  padding: 0px 29px 0px 29px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.done {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  position: relative;
+}
+.button-11, .button-12, .button-31, .button-32, .button-33{
+  border: 3px solid #e6dada;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  background: #ffffff;
+  transition: border-color 0.3s ease;
+}
+.image-43, ._10, .button-done
+{
+  cursor: pointer;
+}
+.button-11:hover, .button-12:hover{
+  border-color:#060606;
+}

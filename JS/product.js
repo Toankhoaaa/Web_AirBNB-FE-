@@ -315,10 +315,6 @@ plusInfantsBtn.addEventListener('click', () =>{
     }
 })
 
-console.log (numberGuest1)
-console.log (numberGuest2)
-console.log (numberGuest3)
-
 // document.addEventListener("DOMContentLoaded", function() {
 //     var video = document.getElementById('myVideo');
 //     video.play();

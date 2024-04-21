@@ -66,14 +66,14 @@
                                         <span>Legal name</span>
                                         <p class="legal_name">Davis Ngo</p>
                                     </div>
-                                    <button class="btn legal_name_btn"><i class="fa-solid fa-chevron-down"></i></button>
+                                    <button class="btn"><i class="fa-solid fa-chevron-down"></i></button>
                                 </div>
-                                <div class="input_box legal_name_box">
+                                <div class="input_box">
                                     <div class="two_input input_name">
-                                        <input type="text" placeholder="First name">
-                                        <input type="text" placeholder="Last name">
+                                        <input type="text" id="first_name" placeholder="First name">
+                                        <input type="text" id="last_name" placeholder="Last name">
                                     </div>
-                                    <button class="save_btn">Save</button>
+                                    <button class="save_btn name_btn">Save</button>
                                 </div>
                             </li>
                             <li>
@@ -82,11 +82,12 @@
                                         <span>Phone numbers</span>
                                         <p class="phone_numbers">Add a number so confirmed guests and Airbnb can get in touch. You can add other numbers and choose how they’re used.</p>
                                     </div>
-                                    <button class="btn phone_numbers_btn"><i class="fa-solid fa-chevron-down"></i></button>
+                                    <button class="btn"><i class="fa-solid fa-chevron-down"></i></button>
                                 </div>
                                 <div class="input_box">
                                     <div class="first_input input_sdt">
-                                        <input type="tel" placeholder="Phone number">
+                                        <input type="number" id="phone_number" placeholder="Phone number">
+                                        <p class="error error_mess_phone">Please enter all 10 numbers</p>
                                     </div>
                                     <button class="save_btn">Save</button>
                                 </div>
@@ -97,7 +98,7 @@
                                         <span>Government ID</span>
                                         <p>Confirmed</p>
                                     </div>
-                                    <button class="btn cccd_btn"><i class="fa-solid fa-chevron-down"></i></button>
+                                    <button class="btn"><i class="fa-solid fa-chevron-down"></i></button>
                                 </div>
                                 <div class="input_box">
                                     <div class="input_cccd">
@@ -113,14 +114,28 @@
                                         </div>
                                         <div class="first_input">
                                             <h5>Issued by: </h5>
-                                            <input type="text" placeholder="Issued by">
+                                            <input type="number" id="cccd_number" placeholder="Issued by" maxlength="12">
+                                            <p class="error error_mess">Please enter all 12 numbers</p>
                                         </div>
                                     </div>
                                     <div class="img_cccd">
                                         <h5>Citizen identity card's image: </h5>
-                                        <button class="img_btn"><i class="fa-solid fa-plus"></i></button>
-                                        <button class="img_btn"><i class="fa-solid fa-plus"></i></button>
+                                        <input type="file" hidden id="file_upload_left">
+                                        <button class="img_btn_front">
+                                            <i class="fa-solid fa-plus"></i>
+                                            <div class="img_front">
+
+                                            </div>
+                                        </button>
+                                        <input type="file" hidden id="file_upload_right">
+                                        <button class="img_btn_behind">
+                                            <i class="fa-solid fa-plus"></i>
+                                            <div class="img_behind">
+
+                                            </div>
+                                        </button>
                                     </div>
+                                    <button class="save_btn">Save</button>
                                 </div>
                             </li>
                             <li>
@@ -129,19 +144,19 @@
                                         <span>Address</span>
                                         <p class="address">Live in Do Luong, Nghe An</p>
                                     </div>
-                                    <button class="btn address_btn"><i class="fa-solid fa-chevron-down"></i></button>
+                                    <button class="btn"><i class="fa-solid fa-chevron-down"></i></button>
                                 </div>
                                 <div class="input_box">
                                     <div class="input_address">
                                         <div class="two_input">
-                                            <input type="text" placeholder="City">
-                                            <input type="text" placeholder="District">
+                                            <input type="text" id="city" placeholder="City">
+                                            <input type="text" id="district" placeholder="District">
                                         </div>
                                         <div class="first_input">
-                                            <input type="text" placeholder="Country">
+                                            <input type="text" id="country" placeholder="Country">
                                         </div>
                                     </div>
-                                    <button class="save_btn">Save</button>
+                                    <button class="save_btn address_btn">Save</button>
                                 </div>
                             </li>
                             <li>
@@ -150,7 +165,7 @@
                                         <span>Emergency contact</span>
                                         <p>Confirmed</p>
                                     </div>
-                                    <button class="btn emergency_contact_btn"><i class="fa-solid fa-chevron-down"></i></button>
+                                    <button class="btn"><i class="fa-solid fa-chevron-down"></i></button>
                                 </div>
                                 <div class="input_box">
                                     <div class="input_emergency_contact">

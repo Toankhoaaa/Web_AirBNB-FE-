@@ -1,0 +1,1149 @@
+body {
+  transform: scale(0.67);
+  transform-origin: top left;
+  margin-top: -80px;
+}
+
+
+.tab-2,
+.tab-2 * {
+  box-sizing: border-box;
+}
+.tab-2 {
+  background: #ffffff;
+  height: 4582px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-43 {
+  display: flex;
+  flex-direction: column;
+  gap: 110px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 82.73%;
+  position: absolute;
+  right: 10.13%;
+  left: 7.13%;
+  top: 211px;
+}
+.tieu-de-tong {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.tieu-de-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.tell-guests-what-your-place-has-to-offer {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.you-can-add-more-amenities-after-you-publish-your-listing {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+}
+.frame-1-button {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-11 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 4px 16px 4px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-11 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.wifi {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+}
+.button-12 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 15px 1px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-12 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.tv {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+}
+.button-13 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 13px 0px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-13 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.kitchen {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+}
+.button-14 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 4px 16px 4px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-14 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.washer {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+}
+.button-15 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 12px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.button-152 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.free-parking-on-premises {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  width: 307px;
+  height: 82px;
+}
+.button-16 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 13px 0px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-16 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.paid-parking-on-premises {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  width: 322px;
+}
+.button-17 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 2px 12px 2px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.button-172 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.air-conditioning {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+}
+.button-18 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 9px 0px 9px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-18 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  object-fit: cover;
+}
+.dedicated-workspace {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  width: 325px;
+}
+.tieu-de-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.do-you-have-any-standout-amenities {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.frame-42 {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-21 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 20px 0px 20px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+}
+.image-21 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  object-fit: cover;
+}
+.pool {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 70px;
+}
+.button-22 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 29px 1px 29px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-23 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 29px;
+  top: 1px;
+  object-fit: cover;
+}
+.hot-tub {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 29px;
+  top: 71px;
+}
+.button-23 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 20px 0px 20px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-22 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  object-fit: cover;
+}
+.patio {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 70px;
+}
+.button-24 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 3px 20px 3px 20px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-24 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 20px;
+  top: 3px;
+  object-fit: cover;
+}
+.bbq-grill {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 80px;
+}
+.button-25 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 15px 0px 15px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-26 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  object-fit: cover;
+}
+.outdoor-dining-area {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 76px;
+  width: 285px;
+  height: 82px;
+}
+.button-26 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 3px 13px 3px 13px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-25 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 13px;
+  top: 3px;
+  object-fit: cover;
+}
+.fire-pit {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 13px;
+  top: 80px;
+  width: 274px;
+}
+.button-27 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 15px 0px 15px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-27 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  object-fit: cover;
+}
+.pool-table {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 76px;
+}
+.button-28 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 15px 1px 15px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-29 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 15px;
+  top: 1px;
+  object-fit: cover;
+}
+.indoor-fireplace {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 77px;
+}
+.button-29 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 13px 0px 13px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-28 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 13px;
+  top: 0px;
+  object-fit: cover;
+}
+.piano {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 13px;
+  top: 76px;
+}
+.button-210 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 0px 15px 0px 15px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-30 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  object-fit: cover;
+}
+.exercise-equipment {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 76px;
+}
+.button-211 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 1px 15px 1px 15px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-32 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 15px;
+  top: 1px;
+  object-fit: cover;
+}
+.lake-access {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 15px;
+  top: 77px;
+  width: 258px;
+  height: 41px;
+}
+.button-212 {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #dfd0d0;
+  border-width: 1px;
+  padding: 0px 13px 0px 13px;
+  flex-shrink: 0;
+  width: 352px;
+  height: 162px;
+  position: relative;
+  overflow: hidden;
+}
+.image-31 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 13px;
+  top: 0px;
+  object-fit: cover;
+}
+.beach-access {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 13px;
+  top: 76px;
+  width: 322px;
+}
+.frame-3-form {
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.tieu-de-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.now-let-s-give-your-house-a-title {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.short-titles-work-best-have-fun-with-it-you-can-always-change-it-later {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+}
+.form-31 {
+  background: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 10px 10px 10px 10px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 243px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: block;
+}
+.tieu-de-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.next-let-s-describe-your-house {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.choose-up-to-2-highlights-we-ll-use-these-to-get-your-description-started {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+}
+.button-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 39px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-41 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 10px 13px 10px 13px;
+  flex-shrink: 0;
+  width: 200px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+}
+.image-33 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 13px;
+  top: 10px;
+  object-fit: cover;
+}
+.peacefull {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 72px;
+  top: 16px;
+}
+.button-42 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 3px 11px 3px 11px;
+  flex-shrink: 0;
+  width: 200px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+}
+.image-34 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 31px;
+  top: 10px;
+  object-fit: cover;
+}
+.unique {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 81px;
+  top: 16px;
+}
+.button-43 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 10px 23px 10px 23px;
+  flex-shrink: 0;
+  width: 320px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+}
+.image-39 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 23px;
+  top: 10px;
+  object-fit: cover;
+}
+.family-friendly {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 96px;
+  top: 16px;
+  width: 201px;
+}
+.button-44 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 10px 13px 10px 13px;
+  flex-shrink: 0;
+  width: 165px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+}
+.image-36 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 13px;
+  top: 10px;
+  object-fit: cover;
+}
+.stylish {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 72px;
+  top: 16px;
+}
+.button-45 {
+  background: #ffffff;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 10px 13px 10px 13px;
+  flex-shrink: 0;
+  width: 200px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+}
+.image-37 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 13px;
+  top: 10px;
+  object-fit: cover;
+}
+.central {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 72px;
+  top: 16px;
+}
+.image-38 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 13px;
+  top: 10px;
+  object-fit: cover;
+}
+.spacious {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  left: 72px;
+  top: 16px;
+}
+.frame-5-form {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.tieu-de-5 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 113px;
+  position: relative;
+}
+.create-your-description {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 563px;
+}
+.share-what-makes-your-place-special {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  position: absolute;
+  left: 0px;
+  top: 68px;
+  width: 563px;
+}
+.form-51 {
+  background: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 10px 10px 10px 10px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 243px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: block;
+}
+.reconnect-with-loved-ones-in-this-family-friendly-place {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0.6000000238418579;
+  position: absolute;
+  left: 55px;
+  top: 33px;
+}
+.button-next {
+  background: #000000;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 8px 97px 8px 97px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.next {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  position: relative;
+}
+.button-11, .button-12, .button-13, .button-14, .button-15, .button-16, 
+.button-17, .button-18, .button-21, .button-22, .button-23, .button-24, .button-25, .button-26, 
+.button-27, .button-28, .button-29, .button-210, .button-211, .button-212
+,.button-41, .button-42, .button-43, .button-44, .button-45{
+  padding: 10px 20px;
+  border: 3px solid #e6dada;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  background: #ffffff;
+  transition: border-color 0.3s ease;
+}
+.button-11:hover, .button-12:hover, .button-13:hover, .button-14:hover, .button-15:hover, .button-16:hover,
+.button-17:hover, .button-18:hover, .button-21:hover, .button-22:hover, .button-23:hover,
+ .button-24:hover, .button-25:hover, .button-26:hover,
+ .button-27:hover, .button-28:hover, .button-29:hover, .button-210:hover, .button-211:hover, .button-212:hover,
+ .button-41:hover, .button-42:hover, .button-43:hover, .button-44:hover, .button-45:hover{
+  border-color:#060606;
+}
+textarea {
+  width: 100%;
+  height: 100%;
+  font-size: 35px;
+  border-radius: 20;
+  border: none;
+  outline: none;
+}
+
+form{
+  width: 100%;
+  height: 100%;
+}
+textarea::placeholder {
+  font-size: 35px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+

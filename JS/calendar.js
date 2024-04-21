@@ -1,7 +1,11 @@
 let calendar = document.querySelector('.calendar')
 let checkIn = document.querySelector('.check_in span')
 let checkOut = document.querySelector('.check_out span')
+const monthPicker = calendar.querySelector('#month-picker');
+
+
 let currentDay = 0;
+var dayChecked = ['18/4/2024-27/4/2024','28/5/2024-5/6/2024']
 const month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 isLeapYear = (year) => {
@@ -14,18 +18,18 @@ getFebDays = (year) => {
 
 generateCalendar = (month, year) => {
 
-    let calendar_days = calendar.querySelector('.calendar-days')
-    let calendar_header_year = calendar.querySelector('#year')
+    const calendar_days = calendar.querySelector('.calendar-days')
+    const calendar_header_year = calendar.querySelector('#year')
 
-    let days_of_month = [31, getFebDays(year), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    const days_of_month = [31, getFebDays(year), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
     calendar_days.innerHTML = ''
 
-    let currDate = new Date()
+    const currDate = new Date()
     if (!year) year = currDate.getFullYear()
 
-    let curr_month = `${month_names[month]}`
-    month_picker.innerHTML = curr_month
+    const curr_month = `${month_names[month]}`
+    monthPicker.innerHTML = curr_month
     calendar_header_year.innerHTML = year
 
     // get first day of month
@@ -38,17 +42,15 @@ generateCalendar = (month, year) => {
     let monthCheckOut = 0;
     let yearCheckOut = 0;
     for (let i = 0; i <= days_of_month[month] + first_day.getDay() - 1; i++) {
-        let day = document.createElement('div')
+        const day = document.createElement('div')
         if (i >= first_day.getDay()) {
             day.classList.add('calendar-day-hover')
             day.innerHTML = i - first_day.getDay() + 1
-            day.innerHTML += `<span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>`
+            day.innerHTML += `<span></span><span></span><span></span><span></span>`;
+
+
             day.addEventListener('click', () =>{
                 currentDay++;
-                console.log(currentDay)
                 if(currentDay <= 2){
                     if(currentDay == 1){
                         day.classList.add('curr-date')
@@ -91,6 +93,46 @@ generateCalendar = (month, year) => {
         }
         calendar_days.appendChild(day)
     }
+
+    for (let range of dayChecked) {
+        let [start, end] = range.split('-');
+        let [startDay, startMonth, startYear] = start.split('/').map(Number);
+        let [endDay, endMonth, endYear] = end.split('/').map(Number);
+        // console.log(endMonth, startMonth)
+        if (startMonth - 1 === month && startYear === year || endMonth - 1 === month && endYear === year) {
+            const startDate = new Date(startYear, startMonth - 1, startDay);
+            const endDate = new Date(endYear, endMonth - 1, endDay);
+            if(startMonth === endMonth){
+                for (let date = startDate; date <= endDate; date.setDate(date.getDate() + 1)) {
+                    let dayIndex = date.getDate() + first_day.getDay() - 1;
+                    if (dayIndex >= 0 && dayIndex < days_of_month[month] + first_day.getDay()) {
+                        calendar_days.children[dayIndex].classList.add('checked');
+                    }
+                }
+            }
+            else if(startMonth !== endMonth){
+                let nextMonthFirstDay = new Date(startYear, startMonth, 1);
+                let lastDayOfMonth = new Date(nextMonthFirstDay - 1);
+                for (let date = startDate; date <= lastDayOfMonth; date.setDate(date.getDate() + 1)) {
+                    let dayIndex = date.getDate() + first_day.getDay() - 1;
+                    if (dayIndex >= 0 && dayIndex < days_of_month[month] + first_day.getDay() && startMonth === month + 1) {
+                        calendar_days.children[dayIndex].classList.add('checked');
+                    }
+                }
+                // console.log(month + 2)
+                // console.log(endMonth)
+                for (let date = nextMonthFirstDay; date <= endDate; date.setDate(date.getDate() + 1)) {
+                    console.log(date)
+                    let dayIndex = date.getDate() + first_day.getDay() - 1;
+                    if (dayIndex >= 0 && dayIndex < days_of_month[month] + first_day.getDay() && endMonth === month + 1) {
+                        console.log(calendar_days.children[dayIndex])
+                        calendar_days.children[dayIndex].classList.add('checked');
+                    }
+                }
+            }
+        }
+    }
+
     let clearDate = document.querySelector('.clear_date_btn')
 
     clearDate.addEventListener('click', () =>{

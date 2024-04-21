@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select, h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: none;
+   text-decoration: none;
+   appearance: none;
+   background: none;
+   
+   -webkit-font-smoothing: antialiased;
+   }
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="tab-1">
+    <a href = "C:./Test/tab2_4/index.html" class = "button-next">
+        <div class="next">Next</div>
+    </a>
+    <div class="thong-tin-phong">
+      <div class="frame-tieu-de-4">
+        <div class="tieu-de-4">Share some basics about your place</div>
+        <div class="giai-thich-tieu-de-4">
+          You&#039;ll add more details later, like bed types.
+        </div>
+      </div>
+      <div class="hang-4-1"> 
+        <div class="guests">Guests</div> 
+        <div class="so-luong-41"> 
+          <img class="image-button-4" src="image-180.png" onclick="changeGuestCount(-1, this)" /> 
+          <div class="Sl">4</div> 
+          <img class="image-button-4" src="image-170.png" onclick="changeGuestCount(1, this)" /> 
+        </div> 
+      </div>      
+      <div class="hang-4-2">
+        <div class="bedrooms">Bedrooms</div>
+        <div class="so-luong-42">
+          <img class="image-button-4" src="image-190.png" onclick="changeGuestCount(-1, this)"/>
+          <div class="Sl">2</div>
+          <img class="image-button-4" src="image-200.png" onclick="changeGuestCount(1, this)"/>
+        </div>
+      </div>
+      <div class="hang-4-3">
+        <div class="beds">Beds</div>
+        <div class="so-luong-43">
+          <img class="image-button-4" src="image-210.png" onclick="changeGuestCount(-1, this)"/>
+          <div class="Sl">3</div>
+          <img class="image-button-4" src="image-220.png" onclick="changeGuestCount(1, this)"/>
+        </div>
+      </div>
+      <div class="hang-4-4">
+        <div class="bathrooms">Bathrooms</div>
+        <div class="so-luong-44">
+          <img class="image-button-4" src="image-230.png" onclick="changeGuestCount(-1, this)"/>
+          <div class="Sl">6</div>
+          <img class="image-button-4" src="image-240.png" onclick="changeGuestCount(1, this)"/>
+        </div>
+      </div>
+    </div>
+    <div class="thong-tin-vi-tri">
+      <div class="frame-tieu-de-3">
+        <div class="tieu-de-3">Where&#039;s your place located?</div>
+        <div class="giai-thich-tieu-de-3">
+          Your address is only shared with guests after they’ve made a
+          reservation.
+        </div>
+      </div>
+      <div class="form-3">
+        <!-- <div class="country-region">Country / region</div> -->
+        <form>
+          <input type = "text", placeholder= "Country / region">
+        </form>
+        <img class="button-detail" src="button-detail0.png" />
+      </div>
+      <div class="form-3">
+        <form>
+          <input type = "text", placeholder= "Street address">
+        </form>
+      </div>
+      <div class="form-3">
+        <form>
+          <input type = "text", placeholder= "Apt, floor, bldg (if applicable)">
+        </form>
+      </div>
+      <div class="form-3">
+        <form>
+          <input type = "text", placeholder= "City / town / village">
+        </form>
+      </div>
+      <div class="form-3">
+        <form>
+          <input type = "text", placeholder= "Province / state / territory (if applicable)">
+        </form>
+      </div>
+      <div class="form-3">
+        <form>
+          <input type = "text", placeholder= "Postal code (if applicable)">
+        </form>
+      </div>
+    </div>
+    <div class="chon-kieu-nha">
+      <div class="frame-tieu-de-2">
+        <div class="tieu-de-2">What type of place will guests have?</div>
+      </div>
+      <div class="button_2">
+        <div class="an-entire-place">An entire place</div>
+        <img class="image-13" src="image-130.png" />
+        <div class="guests-have-the-whole-place-to-themselves">
+          Guests have the whole place to themselves.
+        </div>
+      </div>
+      <div class="button_2">
+        <div class="a-room">A room</div>
+        <img class="image-14" src="image-140.png" />
+        <div
+          class="guests-have-their-own-room-in-a-home-plus-access-to-shared-spaces"
+        >
+          Guests have their own room in a home, plus access to shared spaces.
+        </div>
+      </div>
+      <div class="button_2">
+        <div class="a-shared-room">A shared room</div>
+        <img class="image-15" src="image-150.png" />
+        <div
+          class="guests-sleep-in-a-room-or-common-area-that-may-be-shared-with-you-or-others"
+        >
+          Guests sleep in a room or common area that may be shared with you or
+          others.
+        </div>
+      </div>
+    </div>
+    <div class="frame-1">
+      <div class="frame-tieu-de-1">
+        <div class="tieu-de-1">Which of these best describes your place?</div>
+      </div>
+      <div class="hang-1-1">
+        <button class="button-111">
+          <div class="rectangle"></div>
+          <img class="image-1" src="image-10.png" />
+          <div class="house">House</div>
+        </button>
+        <div class="button-112">
+          <div class="rectangle"></div>
+          <div class="aparment">Aparment</div>
+          <img class="image-2" src="image-20.png" />
+        </div>
+        <button class="button-113">
+          <div class="rectangle"></div>
+          <div class="cabin">Cabin</div>
+          <img class="image-3" src="image-30.png" />
+        </button>
+      </div>
+      <div class="hang-1-2">
+        <button class="button-121">
+          <div class="rectangle"></div>
+          <img class="image-4" src="image-40.png" />
+          <div class="farm">Farm</div>
+        </button>
+        <button class="button-122">
+          <div class="rectangle"></div>
+          <img class="image-5" src="image-50.png" />
+          <div class="tiny-home">Tiny home</div>
+        </button>
+        <button class="button-123">
+          <div class="rectangle"></div>
+          <img class="image-6" src="image-60.png" />
+          <div class="houseboat">Houseboat</div>
+        </button>
+      </div>
+      <div class="hang-1-3">
+        <div class="button-133">
+          <div class="rectangle"></div>
+          <div class="container">Container</div>
+          <img class="image-31" src="image-310.png" />
+        </div>
+        <div class="button-132">
+          <div class="rectangle"></div>
+          <div class="earth-home">Earth home</div>
+          <img class="image-8" src="image-80.png" />
+        </div>
+        <div class="button-131">
+          <div class="rectangle"></div>
+          <div class="tent">Tent</div>
+          <img class="image-9" src="image-90.png" />
+        </div>
+      </div>
+      <div class="hang-1-4">
+        <button class="button-141">
+          <div class="rectangle"></div>
+          <div class="windmill">Windmill</div>
+          <img class="image-10" src="image-100.png" />
+        </button>
+        <button class="button-142">
+          <div class="rectangle"></div>
+          <div class="tower">Tower</div>
+          <img class="image-12" src="image-120.png" />
+        </button>
+        <button class="button-143">
+          <div class="rectangle"></div>
+          <div class="treehouse">Treehouse</div>
+          <img class="image-11" src="image-110.png" />
+        </button>
+      </div>
+    </div>
+    <div class="tieu-de-tong">It’s easy to get started on Airbnb</div>
+  </div>
+  
+  <script src = "script.js">
+  </script>
+</body>
+</html>
