@@ -230,3 +230,97 @@ backBtn.addEventListener('click', () =>{
       nextBtn.textContent = 'Next'
     }
 })
+
+
+//Xử lý button page 6
+
+const minusBtns = document.querySelectorAll('.minus_btn')
+const plusBtns = document.querySelectorAll('.plus_btn')
+
+minusBtns.forEach((btn) =>{
+  btn.addEventListener('click', () =>{
+    var parent = btn.parentNode;
+    var textNumber = parent.querySelector('span');
+    var number = Number.parseInt(parent.querySelector('span').textContent, 10);
+    if(number > 0){
+      number--;
+      textNumber.textContent = `${number}`
+    }else{
+      btn.style.pointerEvent = 'none'
+      btn.style.color = '#ccc'
+      btn.style.border = '1px solid #ccc'
+    }
+  })
+})
+
+
+plusBtns.forEach((btn) =>{
+  btn.addEventListener('click', () =>{
+    var parent = btn.parentNode;
+    var textNumber = parent.querySelector('span');
+    var minusBtn = parent.firstElementChild;
+    var number = Number.parseInt(parent.querySelector('span').textContent, 10);
+    number++;
+    textNumber.textContent = `${number}`
+    minusBtn.style.color = '#000'
+    minusBtn.style.border = '1px solid #000'
+    minusBtn.style.pointerEvent = ''
+  })
+})
+
+
+//Xử lý button ở page7
+
+const offerBtns = document.querySelectorAll('.list_offer button')
+const amenitiesBtns = document.querySelectorAll('.amenities_list button')
+
+offerBtns.forEach((btn) =>{
+  btn.addEventListener('click',()=>{
+    if(btn.classList.contains('clicked')){
+      btn.classList.remove('clicked')
+    }else{
+      btn.classList.add('clicked')
+    }
+  })
+})
+
+amenitiesBtns.forEach((btn) =>{
+  btn.addEventListener('click',()=>{
+    if(btn.classList.contains('clicked')){
+      btn.classList.remove('clicked')
+    }else{
+      btn.classList.add('clicked')
+    }
+  })
+})
+
+//Xử lý button page8
+
+const hightlightsBtns = document.querySelectorAll('.highlights_list button')
+var current = 0
+hightlightsBtns.forEach((btn) =>{
+  btn.addEventListener('click',()=>{
+    if(btn.classList.contains('clicked')){
+      current--;
+      btn.classList.remove('clicked')
+    }else{
+      current++
+      btn.classList.add('clicked')
+    }
+    if(current === 2){
+      btn.style.pointerEvent = 'none'
+      hightlightsBtns.forEach((btn1) =>{
+        if(btn1.classList.contains('clicked')){
+          
+        }else{
+          btn1.style.opacity = 0.4
+        }
+      })
+    }else{
+      btn.style.pointerEvent = ''
+      hightlightsBtns.forEach((btn1) =>{
+        btn1.style.opacity = 1
+      })
+    }
+  })
+})

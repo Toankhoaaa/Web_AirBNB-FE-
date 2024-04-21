@@ -28,6 +28,12 @@ html{
     display: none !important;
 }
 
+.clicked{
+    border: 3px solid #000 !important;
+    background-color: rgb(208, 208, 208) !important;
+    color: #727171;
+}
+
 #header{
     position: fixed;
     top: 0;
@@ -289,7 +295,7 @@ html{
     cursor: pointer;
 }
 
-.btn_min{
+.minus_btn{
     border: 2px solid #dfdada;
     color: #ccc;
 }
