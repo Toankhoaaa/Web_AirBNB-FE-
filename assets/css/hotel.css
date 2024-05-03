@@ -42,6 +42,7 @@ html{
     height: 100px;
     border-bottom: 1px solid #ccc;
     background-color: #fff;
+    z-index: 5;
 }
 
 .header_container{
@@ -188,9 +189,9 @@ html{
     border: 3px solid #000;
 }
 
-.place_item button:focus{
-    border: 3px solid #000;
-    background-color: rgb(208, 208, 208);
+.focus{
+    border: 3px solid #000 !important;
+    background-color: rgb(208, 208, 208) !important;
 }
 
 .place_item button>img{
@@ -225,11 +226,11 @@ html{
     border: 3px solid #000;
 }
 
-.type_of_item button:focus{
-    border: 3px solid #000;
-    background-color: rgb(208, 208, 208);
-    .text p{
-        color: #727171;
+.focus3{
+    border: 3px solid #000 !important ;
+    background-color: rgb(208, 208, 208) !important;
+    p{
+        color: #727171 !important;
     }
 }
 
@@ -271,6 +272,19 @@ html{
     border: 3px solid #ccc;
     margin-bottom: 15px;
     margin-top: 10px;
+}
+
+.two_input input{
+    width: 45%;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 17px;
+    margin-right: 20px;
+    border: 2px solid #ccc;
+}
+
+.input_date_check{
+    margin-bottom: 50px;
 }
 
 #page_5{
@@ -455,10 +469,10 @@ html{
     border: 3px solid #000;
 }
 
-.confirm_item button:focus{
+.focus11{
     border: 3px solid #000;
     background-color: rgb(208, 208, 208);
-    .text p{
+    p{
         color: #727171;
     }
 }
@@ -522,6 +536,10 @@ html{
     border: none;
 }
 
+.discounts_list{
+    margin-bottom: 50px;
+}
+
 .discounts_list .discounts_item:first-child p{
     margin-right: 15px;
     margin-left: 10px;
@@ -574,5 +592,57 @@ html{
     }to{
         transform: translateX(0);
     }
+}
+
+/* Code css của page 6 thêm img */
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 380px;
+    border: 3px dashed #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.img button:not(:last-child){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.remove{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px #ccc;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.done_btn{
+    display: none;
 }
 
