@@ -228,11 +228,12 @@ html{
 
 .comment_list li{
     display: flex;
-    padding: 20px 0;
+    padding: 20px 15px;
 }
 
 .comment_list li:hover{
     background-color: #252525;
+    border-radius: 10px;
 }
 
 .comment_list li:not(:last-child){
