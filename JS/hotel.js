@@ -79,7 +79,7 @@ var video3 = document.getElementById('myVideo-9')
 
 var index = 1;
 var barWith = 0;
-
+backBtn.style.pointerEvents = 'none';
 nextBtn.addEventListener('click', () =>{
     index++;
     backBtn.style.pointerEvents = ''
