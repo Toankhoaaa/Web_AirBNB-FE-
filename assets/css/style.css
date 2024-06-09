@@ -12,6 +12,10 @@ html{
     height: 3000px;
 }
 
+.search_open{
+    display: block !important;
+}
+
 #header{
     display: none;
     height: 80px;
@@ -137,7 +141,7 @@ html{
     height: 48px;
     padding: 4px 10px 4px 10px;
     border-radius: 30px;
-    margin-top: 5px 
+    margin-top: 5px;
 }
 
 .nav_login:hover{
@@ -221,6 +225,97 @@ html{
 } */
 
 
+.search_where{
+    display: none;
+    position: absolute;
+    top: 0;
+    transform: translateY(17%);
+}
+
+.list_where{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #adadad;
+    margin-top: 10px;
+}
+
+.list_where .place{
+    flex: 1 1 calc(33.33% - 15px);
+    text-align: center;
+    cursor: pointer;
+    margin-right: 15px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.list_where .place:hover{
+    background-color: #e0e0e0;
+}
+
+
+.list_where img{
+    width: 110px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.place p{
+    color: #000 !important;
+    font-weight: 600 !important;
+    margin-top: 10px;
+}
+
+
+.who_box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-25%,30%);
+}
+
+.list_guest{
+    background-color: #fff;
+    box-shadow: 0 0 10px #adadad;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.item_guest{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_guest span{
+    color: #000 !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.list_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.list_btn button{
+    padding: 6px !important;
+    border: 1px solid #000 !important;
+}
+
+.list_btn p{
+    margin: 0 10px ;
+    color: #000 !important;
+}
+
 #first_header{
     /* display: none; */
     height: 175px;
@@ -282,9 +377,11 @@ html{
 
 .book_container_experience{
     display: flex !important;
+    position: relative;
     margin-top: 15px;
+    padding: 3px;
     border: 1px solid #ccc;
-    border-radius: 30px;
+    border-radius: 40px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -351,9 +448,11 @@ html{
 
 .book_container_stays{
     display: flex !important;
+    position: relative;
     margin-top: 15px;
+    padding: 3px;
     border: 1px solid #ccc;
-    border-radius: 30px;
+    border-radius: 40px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 

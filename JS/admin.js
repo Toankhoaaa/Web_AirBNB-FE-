@@ -239,3 +239,164 @@ btnAlls.forEach((btn) =>{
     }
   })
 })
+
+
+//Trang Analytics
+
+const hotels = document.querySelectorAll('.item_7 table tbody tr')
+for(let i = 0; i < hotels.length; i++){
+  hotels[i].addEventListener('click', () =>{
+    var name = hotels[i].firstElementChild.textContent;
+    const nameHotel = document.querySelector('.name_hotel_analytics span')
+    nameHotel.textContent = name;
+  })
+}
+
+const selectElement = document.getElementById('search_by_revenue');
+const btnRevenue = document.querySelector('.btn_revenue')
+const revenues = document.querySelectorAll('.item_7 table tbody tr td:last-child')
+
+var revenuesArr = [];
+
+for(let i = 0; i < revenues.length; i++){
+  var money = revenues[i].textContent.slice(0, -1);
+  revenuesArr.push(money, i)
+}
+
+btnRevenue.addEventListener('click', () =>{
+  var index = selectElement.selectedIndex;
+  hotels.forEach((ht) =>{
+    ht.classList.remove('close')
+  })
+  if(index === 1){
+    hotels.forEach((ht) =>{
+      ht.classList.add('close')
+    })
+    for(let j = 0; j < revenuesArr.length; j++){
+      if(j % 2 === 0){
+        if(revenuesArr[j] < 10000){
+          var row = revenuesArr[j + 1];
+          hotels[row].classList.remove('close')
+        }
+      }
+    }
+  }
+  else if(index === 2){
+    hotels.forEach((ht) =>{
+      ht.classList.add('close')
+    })
+    for(let j = 0; j < revenuesArr.length; j++){
+      if(j % 2 === 0){
+        if(revenuesArr[j] >= 10000 && revenuesArr[j] < 30000){
+          var row = revenuesArr[j + 1];
+          hotels[row].classList.remove('close')
+        }
+      }
+    }
+  }
+  else if(index === 3){
+    hotels.forEach((ht) =>{
+      ht.classList.add('close')
+    })
+    for(let j = 0; j < revenuesArr.length; j++){
+      if(j % 2 === 0){
+        if(revenuesArr[j] >= 30000 && revenuesArr[j] < 50000){
+          var row = revenuesArr[j + 1];
+          hotels[row].classList.remove('close')
+        }
+      }
+    }
+  }
+  else if(index === 4){
+    hotels.forEach((ht) =>{
+      ht.classList.add('close')
+    })
+    for(let j = 0; j < revenuesArr.length; j++){
+      if(j % 2 === 0){
+        if(revenuesArr[j] >= 50000){
+          var row = revenuesArr[j + 1];
+          hotels[row].classList.remove('close')
+        }
+      }
+    }
+  }
+});
+
+const selectElementArrange = document.getElementById('arrange');
+const btnArrange = document.querySelector('.btn_arrange')
+var arrArrange = [];
+
+btnArrange.addEventListener('click', () =>{
+  hotels.forEach((ht, index) =>{
+    if(ht.className === ''){
+        var revenue = ht.lastElementChild;
+        var money = revenue.textContent.slice(0, -1);
+        arrArrange.push(money, index)
+    }
+  })
+  
+  console.log(arrArrange)
+  var index = selectElementArrange.selectedIndex;
+  if(index === 1){
+    // Lấy danh sách các thẻ <tr> từ bảng
+    const tableBody = document.querySelector('.list_item.item_7 table tbody');
+    const rows = Array.from(tableBody.querySelectorAll('tr'));
+
+    // Sắp xếp mảng các thẻ <tr> dựa trên doanh thu (revenue)
+    rows.sort((a, b) => {
+        const revenueA = parseInt(a.querySelector('td:nth-child(4)').textContent.replace('$', '').replace(',', ''));
+        const revenueB = parseInt(b.querySelector('td:nth-child(4)').textContent.replace('$', '').replace(',', ''));
+        return revenueA - revenueB;
+    });
+
+    // Xóa tất cả các thẻ <tr> hiện có từ bảng
+    tableBody.innerHTML = '';
+
+    // Thêm các thẻ <tr> đã sắp xếp vào bảng
+    rows.forEach(row => {
+        tableBody.appendChild(row);
+    });
+  }
+  else if(index === 2){
+    // Lấy danh sách các thẻ <tr> từ bảng
+    const tableBody = document.querySelector('.list_item.item_7 table tbody');
+    const rows = Array.from(tableBody.querySelectorAll('tr'));
+
+    // Sắp xếp mảng các thẻ <tr> dựa trên doanh thu (revenue)
+    rows.sort((a, b) => {
+        const revenueA = parseInt(a.querySelector('td:nth-child(4)').textContent.replace('$', '').replace(',', ''));
+        const revenueB = parseInt(b.querySelector('td:nth-child(4)').textContent.replace('$', '').replace(',', ''));
+        return revenueB - revenueA;
+    });
+
+    // Xóa tất cả các thẻ <tr> hiện có từ bảng
+    tableBody.innerHTML = '';
+
+    // Thêm các thẻ <tr> đã sắp xếp vào bảng
+    rows.forEach(row => {
+        tableBody.appendChild(row);
+    });
+  }
+  else if(index === 3){
+    // Lấy danh sách các thẻ <tr> từ bảng
+    const tableBody = document.querySelector('.list_item.item_7 table tbody');
+    const rows = Array.from(tableBody.querySelectorAll('tr'));
+
+    // Sắp xếp mảng các thẻ <tr> dựa trên tên khách sạn (theo bảng chữ cái A-Z)
+    rows.sort((a, b) => {
+        const nameA = a.querySelector('td:nth-child(1)').textContent.trim().toLowerCase();
+        const nameB = b.querySelector('td:nth-child(1)').textContent.trim().toLowerCase();
+        return nameA.localeCompare(nameB);
+    });
+
+    // Xóa tất cả các thẻ <tr> hiện có từ bảng
+    tableBody.innerHTML = '';
+
+    // Thêm các thẻ <tr> đã sắp xếp vào bảng
+    rows.forEach(row => {
+        tableBody.appendChild(row);
+    });
+
+  }
+  
+})

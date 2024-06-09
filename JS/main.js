@@ -54,3 +54,43 @@ for (var productBtn of productBtns){
         window.location.href = "Product.html";
     })
 }
+
+//xử lý sự kiện của nav-bar
+const placeBtns = document.querySelectorAll('.place_btn')
+const searchWhere = document.querySelectorAll('.search_where');
+const bookContainer = document.querySelectorAll('.js_book_container')
+
+placeBtns.forEach((btn) =>{
+    btn.addEventListener('click', ()=>{
+        searchWhere.forEach((box) =>{
+            if(box.classList.contains('search_open')){
+                box.classList.remove('search_open')
+                bookContainer.forEach((book) =>{
+                    Object.assign(book.style,{
+                        backgroundColor: '',
+                    });
+                })
+                placeBtns.forEach((btn) =>{
+                    Object.assign(btn.style,{
+                        backgroundColor: '',
+                        boxShadow: ''
+                    });
+                })
+            }
+            else{
+                box.classList.add('search_open')
+                bookContainer.forEach((book) =>{
+                    Object.assign(book.style,{
+                        backgroundColor: '#DDD',
+                    });
+                })
+                placeBtns.forEach((btn) =>{
+                    Object.assign(btn.style,{
+                        backgroundColor: '#fff',
+                        boxShadow: '0 0 10px #ccc'
+                    });
+                })
+            }
+        })
+    })
+})

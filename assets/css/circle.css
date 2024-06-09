@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  text-align: center;
+  place-items: center;
+  background: #f1f1f1;
+}
+.circular{
+  height: 350px;
+  width: 350px;
+  position: relative;
+}
+
+.circular .inner, .circular .outer, .circular .circle{
+  position: absolute;
+  z-index: 6;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3), 0 5px 5px #ffffff, inset 0 -10px 30px #ffffffe5, inset 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.circular .inner2{
+    position: absolute;
+    z-index: 5;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    height: 230px;
+    width: 230px;
+    margin: -113px 0 0 -113px;
+    background: linear-gradient(#fff, #f1efef, #f7f7f7);
+}
+
+.circular .inner{
+    top: 50%;
+    left: 50%;
+    height: 220px;
+    width: 220px;
+    margin: -108px 0 0 -108px;
+    background-color: #f1f1f1;
+    border-radius: 100%;
+    box-shadow: 0 -5px 5px rgba(255, 255, 255, 0.6), inset 0 5px 3px rgba(255, 255, 255, 0.9), inset 0 -5px 5px rgba(0, 0, 0, 0.2), 0 11px 25px rgba(0, 0, 0, 0.3), 0 -10px 30px rgba(255, 255, 255, 0.9);
+}
+.circular .circle{
+  z-index: 1;
+  box-shadow: none;
+}
+.circular .numb{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  font-size: 25px;
+  font-weight: 500;
+  color: #4158d0;
+}
+.circular .bar{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 100%;
+  clip: rect(0px, 350px, 350px, 175.5px);
+  background-color: #dbdbdb;
+}
+.circle .bar .progress{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-border-radius: 100%;
+  clip: rect(0px, 175.5px, 350px, 0px);
+}
+
+
+.circle .bar .progress, .dots .sub_dot{
+    background-color: #FF234B;
+    transition: background-color 0.3s linear;
+}
+
+.circle .left .progress{
+  z-index: 1;
+  animation: left 4s linear both;
+}
+
+@keyframes left {
+  100%{
+    transform: rotate(180deg);
+  }
+}
+.circle .right{
+  z-index: 3;
+  transform: rotate(180deg);
+}
+.circle .right .progress{
+  animation: right 4s linear both;
+  animation-delay: 4s;
+}
+@keyframes right {
+  100%{
+    transform: rotate(180deg);
+  }
+}
+.circle .dots{
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 10px;
+  margin-top: -5px;
+  animation: dot 8s linear both;
+  transform-origin: 0% 50%;
+}
+.circle .dots .dot_btn {
+  position: absolute;
+  right: 0;
+  transform: translate(-6px, -20px);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  z-index: 19;
+}
+
+.circle .dots .dot_btn{
+    background: linear-gradient(180deg, #d5d5d5 0%, #ffffff 83.75%);
+    box-shadow: 0 2px 2px rgba(225, 0, 35, 0.5), inset 0 -1px 2px rgba(0, 0, 0, 0.35), inset 0 2px 2px #ffffff;
+}
+
+.circle .dots .sub_dot{
+    position: absolute;
+    right: 0;
+    transform: translate(-1px, -25px);
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    box-shadow: -5px 15px 30px rgb(255, 35, 75, 0.9);
+}
+
+@keyframes dot{
+  0% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(90deg);
+    z-index: 4;
+  }
+  100% {
+    transform: rotate(270deg);
+    z-index: 4;
+  }
+}

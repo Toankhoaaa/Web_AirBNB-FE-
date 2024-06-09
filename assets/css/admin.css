@@ -18,6 +18,10 @@
   display: none !important;
 }
 
+.open{
+  display: block;
+}
+
 .center{
   display: flex;
   justify-content: center;
@@ -471,6 +475,7 @@
   border-radius: 10px;
   background-color: #11101D;
   color: #fff;
+  margin-bottom: 5px;
 }
 
 .list_item table tbody tr td:first-child button{
@@ -838,3 +843,195 @@
 #analytics{
   display: none;
 }
+
+.search_analytics{
+  display: flex;
+  padding: 20px;
+}
+
+.item_analytics{
+  flex: 1 1 33.33%;
+  text-align: center;
+  width: 100%;
+  margin: 0 10px;
+  max-width: 500px;
+}
+
+#search_company{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 80%;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.btn_search{
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #11101D;
+  cursor: pointer;
+}
+
+#search_by_revenue{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 80%;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#arrange{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 80%;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.item_7{
+  flex: 0 0 50% !important;
+  text-align: center;
+  height: 350px !important;
+  overflow: auto;
+}
+
+.list_hotel_analytics{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+
+
+.item_7 table tbody tr:hover{
+  background-color: #424242;
+  color: #fff;
+  cursor: pointer;
+} 
+
+.item_3{
+  position: relative;
+  flex: 0 0 45% !important;
+  height: 350px !important;
+  overflow: auto;
+}
+
+.name_hotel_analytics{
+  text-align: center;
+}
+
+.name_hotel_analytics span{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#search_by_date{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 80%;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#by_year{
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.tittle {
+  text-align: center;
+}
+
+.btn_nav button{
+  position: absolute;
+  padding: 8px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 0 5px #ccc;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn_nav button:hover{
+  background-color: #949494;
+}
+
+.btn_nav_left{
+  top: 50%;
+  left: 0;
+}
+
+.btn_nav_right{
+  top: 50%;
+  right: 0;
+}
+
+.container_notifi{
+  display: flex;
+}
+
+.item_notifi{
+  flex: 1;
+  border: 1px solid #000;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tittle span{
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.list_notifi{
+  overflow: auto;
+  height: 400px;
+}
+
+.list_notifi li{
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list_notifi li:hover{
+  background-color: #d6d6d6;
+}
+
+.logo i{
+  padding: 10px;
+  margin-right: 15px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #949494;
+}
+
+.content_notifi p{
+  width: 70%; /* Đặt độ rộng cố định */
+  white-space: nowrap; /* Không cho phép xuống dòng */
+  overflow: hidden; /* Ẩn phần văn bản tràn ra */
+  text-overflow: ellipsis; /* Thêm dấu ba chấm khi văn bản tràn */
+}
+
+.time span{
+  font-size: 14px;
+  color: #302d4b;
+}
+
+
