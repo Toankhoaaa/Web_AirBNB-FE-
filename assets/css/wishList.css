@@ -126,3 +126,9 @@ html{
 .price span{
     font-weight: 600;
 }
+
+@media screen and (max-width: 46.1875em){
+    .nav_languages{
+        display: none !important;
+    }
+}

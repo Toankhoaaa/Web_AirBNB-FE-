@@ -62,6 +62,22 @@ const bookContainer = document.querySelectorAll('.js_book_container')
 
 placeBtns.forEach((btn) =>{
     btn.addEventListener('click', ()=>{
+        whoBox.forEach((box) =>{
+            if(box.classList.contains('search_open')){
+                box.classList.remove('search_open')
+                bookContainer.forEach((book) =>{
+                    Object.assign(book.style,{
+                        backgroundColor: '',
+                    });
+                })
+                searhStay.forEach((btn) =>{
+                    Object.assign(btn.style,{
+                        backgroundColor: '',
+                        boxShadow: ''
+                    });
+                })
+            }
+        })
         searchWhere.forEach((box) =>{
             if(box.classList.contains('search_open')){
                 box.classList.remove('search_open')
@@ -85,6 +101,60 @@ placeBtns.forEach((btn) =>{
                     });
                 })
                 placeBtns.forEach((btn) =>{
+                    Object.assign(btn.style,{
+                        backgroundColor: '#fff',
+                        boxShadow: '0 0 10px #ccc'
+                    });
+                })
+            }
+        })
+    })
+})
+
+const peopleBtn = document.querySelectorAll('.people_btn')
+const whoBox = document.querySelectorAll('.who_box')
+const searhStay = document.querySelectorAll('.search_stays')
+peopleBtn.forEach((btn) =>{
+    btn.addEventListener('click', ()=>{
+        searchWhere.forEach((box) =>{
+            if(box.classList.contains('search_open')){
+                box.classList.remove('search_open')
+                bookContainer.forEach((book) =>{
+                    Object.assign(book.style,{
+                        backgroundColor: '',
+                    });
+                })
+                placeBtns.forEach((btn) =>{
+                    Object.assign(btn.style,{
+                        backgroundColor: '',
+                        boxShadow: ''
+                    });
+                })
+            }
+        })
+        whoBox.forEach((box) =>{
+            if(box.classList.contains('search_open')){
+                box.classList.remove('search_open')
+                bookContainer.forEach((book) =>{
+                    Object.assign(book.style,{
+                        backgroundColor: '',
+                    });
+                })
+                searhStay.forEach((btn) =>{
+                    Object.assign(btn.style,{
+                        backgroundColor: '',
+                        boxShadow: ''
+                    });
+                })
+            }
+            else{
+                box.classList.add('search_open')
+                bookContainer.forEach((book) =>{
+                    Object.assign(book.style,{
+                        backgroundColor: '#DDD',
+                    });
+                })
+                searhStay.forEach((btn) =>{
                     Object.assign(btn.style,{
                         backgroundColor: '#fff',
                         boxShadow: '0 0 10px #ccc'

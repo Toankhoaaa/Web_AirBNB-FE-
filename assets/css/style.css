@@ -141,7 +141,6 @@ html{
     height: 48px;
     padding: 4px 10px 4px 10px;
     border-radius: 30px;
-    margin-top: 5px;
 }
 
 .nav_login:hover{
@@ -273,6 +272,7 @@ html{
 
 
 .who_box{
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
@@ -823,6 +823,72 @@ html{
     } 
 }
 
+@media screen and (max-width: 46.1875em){
+    .nav_languages{
+        display: none;
+    }
+    .first_experience_list{
+        display: none;
+    }
+    .book_container_stays p{
+        display: none;
+    }
+    #content {
+        margin-top: 150px;
+    }
+    .book_container_stays{
+        display: none !important;
+    }
+    #first_header {
+        height: 95px;
+    }
+    #room_classification {
+        top: 95px;
+    }
+    .seller_profile_container_right{
+        display: none;
+    }
+    .seller_profile_container_left{
+        right: auto !important;
+        border-radius: 10px !important;
+    }
+    .profile_left{
+        left: 10px !important;
+        right: auto !important;
+        box-shadow: none !important;
+    }
+    .list_img img{
+        height: 360px;
+    }
+}
+
+@media screen and (min-width:46.25em) and (max-width: 63.9375em){
+    .list_img img{
+        height: 230px;
+    }
+    .book_container_stays{
+        margin-top: 0;
+        padding: 0;
+    }
+    .book_container_experience{
+        margin-top: 0;
+        padding: 0;
+    }
+    .first_experience_list{
+        margin-left: 53%;
+    }
+    .first_experience_list button{
+        padding: 15px 10px;
+        margin-bottom: 10px;
+    }
+    .first_experience_list a{
+        padding: 15px 10px;
+        margin-bottom: 10px;
+    }
+    .nav_languages{
+        display: none;
+    }
+}
     
 
 

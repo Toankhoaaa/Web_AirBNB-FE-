@@ -1,161 +1,205 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
 }
 
-.open{
+.open {
     display: block !important;
 }
 
-.close{
+.close {
     display: none !important;
 }
 
-.active{
+.active {
     opacity: 0.4;
     pointer-events: none;
 }
 
-#content{
+#content {
     margin-top: 150px;
     margin-bottom: 50px;
 }
 
-.tittle{
+.tittle {
     margin-bottom: 40px;
 }
 
-.infor_list li{
+.infor_list li {
     list-style: none;
     padding-bottom: 25px;
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
 
-.infor_container{
+.infor_container {
     display: flex;
     justify-content: space-between;
 }
 
-.infor_item span{
+.infor_item span {
     font-size: 17px;
     color: black;
     line-height: 25px;
 }
 
-.infor_item p{
+.infor_item p {
     font-size: 16px;
     color: #a7a7a7;
 }
 
-.infor_list .btn{
+.infor_list .btn {
     background-color: transparent;
     border: none;
     padding: 0 20px;
     font-size: 20px;
 }
 
-.ask_list{
+.ask_list {
     border: 1px solid #ccc;
     padding: 30px;
     border-radius: 10px;
 }
 
-.ask_item{
+.ask_item {
     line-height: 30px;
 }
 
-.ask_item:not(:last-child){
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-}
+    .ask_item:not(:last-child) {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #ccc;
+    }
 
-.ask_icon{
+.ask_icon {
     position: relative;
     margin-bottom: 10px;
 }
 
-.ask_icon i:first-child{
-    font-size: 50px;
-}
+    .ask_icon i:first-child {
+        font-size: 50px;
+    }
 
-.ask_icon .icon_sub{
-    font-size: 30px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: #ccc;
-}
+    .ask_icon .icon_sub {
+        font-size: 30px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: #ccc;
+    }
 
-.ask_item span{
+.ask_item span {
     font-size: 20px;
     font-weight: 600;
 }
 
 
-#footer{
+#footer {
     background-color: #f8f8f8;
     padding: 50px 25px;
     border-top: 1px solid #ccc;
 }
 
-.infor_contact_list{
+.infor_contact_list {
     border-bottom: 1px solid #ccc;
 }
 
-.infor_contact_item{
+.infor_contact_item {
     margin-bottom: 25px;
 }
 
-.infor_contact_item span{
-    font-size: 18px;
-    font-weight: 600;
-}
+    .infor_contact_item span {
+        font-size: 18px;
+        font-weight: 600;
+    }
 
-.infor_contact_item li{
-    list-style: none;
-    margin: 15px 0;
-}
+    .infor_contact_item li {
+        list-style: none;
+        margin: 15px 0;
+    }
 
-.infor_contact_item li>a{
-    text-decoration: none;
-    color: #000000;
-    cursor: pointer;
-}
+        .infor_contact_item li > a {
+            text-decoration: none;
+            color: #000000;
+            cursor: pointer;
+        }
 
-.infor_contact_item li > a:hover{
-    border-bottom: 1px solid #000;
-}
+            .infor_contact_item li > a:hover {
+                border-bottom: 1px solid #000;
+            }
 
-.input_box{
+.input_box {
     display: none;
     margin-top: 20px;
 }
 
-.two_input{
+
+/* css in the .address */
+
+.btn_change{
+    text-align: center;
+    margin-bottom: 20px;
+    transform: translateX(-20px);
+}
+
+.btn_change button{
+    font-size: 18px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: #8a8a8a;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn_change button>i{
+    margin-right: 10px;
+}
+
+.btn_change button:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.btn_clicked{
+    color: #fff !important;
+    border: 1px solid #000 !important;
+    background-color: #000 !important;
+}
+
+
+.two_input {
     display: flex;
     margin-bottom: 15px;
 }
 
-.two_input input{
-    width: 45%;
-    padding: 20px;
-    border-radius: 15px;
-    font-size: 17px;
-    margin-right: 20px;
-    border: 2px solid #ccc;
-}
+    .two_input select {
+        width: 45%;
+        padding: 20px;
+        border-radius: 15px;
+        font-size: 17px;
+        margin-right: 20px;
+        border: 2px solid #ccc;
+    }
+    .two_input input {
+        width: 45%;
+        padding: 20px;
+        border-radius: 15px;
+        font-size: 17px;
+        margin-right: 20px;
+        border: 2px solid #ccc;
+    }
 
-.input_box .save_btn{
+.input_box .save_btn {
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
@@ -164,11 +208,11 @@ html{
     cursor: pointer;
 }
 
-.save_btn:hover{
+.save_btn:hover {
     background-color: #242323;
 }
 
-.first_input input{
+.first_input select {
     width: 92.8%;
     padding: 20px;
     border-radius: 15px;
@@ -178,19 +222,29 @@ html{
     margin-top: 10px;
 }
 
-.input_cccd_container{
+.first_input input {
+    width: 92.8%;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 17px;
+    border: 2px solid #ccc;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.input_cccd_container {
     display: flex;
 }
 
-.input_date{
+.input_date {
     width: 48.2%;
 }
 
-.img_cccd h5{
+.img_cccd h5 {
     margin-bottom: 10px;
 }
 
-.img_cccd button{
+.img_cccd button {
     color: #ccc;
     padding: 20px;
     margin-bottom: 20px;
@@ -201,16 +255,26 @@ html{
     cursor: pointer;
 }
 
-.img{
+.img {
     width: 150px;
     height: 100px;
 }
 
-.error{
+.error {
     display: none;
     color: #ff385c;
     margin-bottom: 10px;
 }
 
-
-
+@media screen and (max-width: 46.1875em){
+    .nav_languages{
+        display: none !important;
+    }
+    .img_cccd button {
+        width: 100%;
+        height: 200px;
+    }
+    #footer{
+        text-align: center;
+    }
+}

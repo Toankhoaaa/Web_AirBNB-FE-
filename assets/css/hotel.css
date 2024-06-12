@@ -279,13 +279,14 @@ html{
     padding: 20px;
     border-radius: 15px;
     font-size: 17px;
-    margin-right: 20px;
+    margin-right: 16px;
     border: 2px solid #ccc;
 }
 
 .input_date_check{
     margin-bottom: 50px;
 }
+
 
 #page_5{
     display: none;
@@ -646,3 +647,10 @@ html{
     display: none;
 }
 
+
+
+.selected {
+    border: 3px solid #000 !important;
+    background-color: rgb(208, 208, 208) !important;
+    color: #727171;
+}
